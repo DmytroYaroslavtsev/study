@@ -31,17 +31,17 @@
           </elementProp>
           <elementProp name="POSTS_NUMBER_0" elementType="Argument">
             <stringProp name="Argument.name">POSTS_NUMBER_0</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POSTS_NUMBER_1" elementType="Argument">
             <stringProp name="Argument.name">POSTS_NUMBER_1</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">1000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POSTS_NUMBER_2" elementType="Argument">
             <stringProp name="Argument.name">POSTS_NUMBER_2</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">2000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USER_NAME" elementType="Argument">
