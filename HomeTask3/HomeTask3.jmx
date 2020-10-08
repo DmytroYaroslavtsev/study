@@ -69,11 +69,6 @@
             <stringProp name="Argument.value">${__P(RAMPUP,1)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="DESICION_FIRST_OR_RANDOM" elementType="Argument">
-            <stringProp name="Argument.name">DESICION_FIRST_OR_RANDOM</stringProp>
-            <stringProp name="Argument.value">${__Random(0,1,)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -265,15 +260,13 @@
                   <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
                 </CookieManager>
                 <hashTree/>
-                <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-                  <collectionProp name="Asserion.test_strings">
-                    <stringProp name="-1396743131">Name of the blog</stringProp>
-                  </collectionProp>
-                  <stringProp name="Assertion.custom_message"></stringProp>
-                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-                  <boolProp name="Assertion.assume_success">false</boolProp>
-                  <intProp name="Assertion.test_type">2</intProp>
-                </ResponseAssertion>
+                <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+                  <stringProp name="scriptLanguage">groovy</stringProp>
+                  <stringProp name="parameters"></stringProp>
+                  <stringProp name="filename"></stringProp>
+                  <stringProp name="cacheKey">true</stringProp>
+                  <stringProp name="script">${__Random(0,1,DESICION_FIRST_OR_RANDOM)};</stringProp>
+                </JSR223PreProcessor>
                 <hashTree/>
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST NAME Extractor" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
@@ -301,6 +294,16 @@
                   <stringProp name="RegexExtractor.default">ERROR</stringProp>
                   <stringProp name="RegexExtractor.match_number">0</stringProp>
                 </RegexExtractor>
+                <hashTree/>
+                <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+                  <collectionProp name="Asserion.test_strings">
+                    <stringProp name="-1396743131">Name of the blog</stringProp>
+                  </collectionProp>
+                  <stringProp name="Assertion.custom_message"></stringProp>
+                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+                  <boolProp name="Assertion.assume_success">false</boolProp>
+                  <intProp name="Assertion.test_type">2</intProp>
+                </ResponseAssertion>
                 <hashTree/>
               </hashTree>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="GOTO Open Random Page" enabled="true">
@@ -389,6 +392,14 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+                  <stringProp name="scriptLanguage">groovy</stringProp>
+                  <stringProp name="parameters"></stringProp>
+                  <stringProp name="filename"></stringProp>
+                  <stringProp name="cacheKey">true</stringProp>
+                  <stringProp name="script">${__Random(0,1,DESICION_FIRST_OR_RANDOM)};</stringProp>
+                </JSR223PreProcessor>
+                <hashTree/>
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST NAME Extractor" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">POST_NAME</stringProp>
@@ -425,13 +436,6 @@
                   <boolProp name="Assertion.assume_success">false</boolProp>
                   <intProp name="Assertion.test_type">2</intProp>
                 </ResponseAssertion>
-                <hashTree/>
-                <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-                  <boolProp name="displayJMeterProperties">false</boolProp>
-                  <boolProp name="displayJMeterVariables">true</boolProp>
-                  <boolProp name="displaySamplerProperties">true</boolProp>
-                  <boolProp name="displaySystemProperties">false</boolProp>
-                </DebugPostProcessor>
                 <hashTree/>
               </hashTree>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="GOTO Open Random Page" enabled="true">
@@ -511,6 +515,14 @@
                       </elementProp>
                     </collectionProp>
                   </HeaderManager>
+                  <hashTree/>
+                  <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+                    <stringProp name="scriptLanguage">groovy</stringProp>
+                    <stringProp name="parameters"></stringProp>
+                    <stringProp name="filename"></stringProp>
+                    <stringProp name="cacheKey">true</stringProp>
+                    <stringProp name="script">${__Random(0,1,DESICION_FIRST_OR_RANDOM)};</stringProp>
+                  </JSR223PreProcessor>
                   <hashTree/>
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="CURRENT PAGE Extractor" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
@@ -597,6 +609,14 @@
                       </elementProp>
                     </collectionProp>
                   </HeaderManager>
+                  <hashTree/>
+                  <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+                    <stringProp name="scriptLanguage">groovy</stringProp>
+                    <stringProp name="parameters"></stringProp>
+                    <stringProp name="filename"></stringProp>
+                    <stringProp name="cacheKey">true</stringProp>
+                    <stringProp name="script">${__Random(0,1,DESICION_FIRST_OR_RANDOM)};</stringProp>
+                  </JSR223PreProcessor>
                   <hashTree/>
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="CURRENT PAGE Extractor" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
@@ -719,6 +739,14 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+                  <stringProp name="scriptLanguage">groovy</stringProp>
+                  <stringProp name="parameters"></stringProp>
+                  <stringProp name="filename"></stringProp>
+                  <stringProp name="cacheKey">true</stringProp>
+                  <stringProp name="script">${__Random(0,1,DESICION_FIRST_OR_RANDOM)};</stringProp>
+                </JSR223PreProcessor>
+                <hashTree/>
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_NAME Extractor" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">POST_NAME</stringProp>
@@ -774,6 +802,14 @@
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
               </HTTPSamplerProxy>
               <hashTree>
+                <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+                  <stringProp name="scriptLanguage">groovy</stringProp>
+                  <stringProp name="parameters"></stringProp>
+                  <stringProp name="filename"></stringProp>
+                  <stringProp name="cacheKey">true</stringProp>
+                  <stringProp name="script">${__Random(0,1,DESICION_FIRST_OR_RANDOM)};</stringProp>
+                </JSR223PreProcessor>
+                <hashTree/>
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_NAME Extractor" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">POST_NAME</stringProp>
@@ -798,6 +834,18 @@
               <boolProp name="TransactionController.parent">true</boolProp>
             </TransactionController>
             <hashTree>
+              <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Time for thinking" enabled="true">
+                <intProp name="ActionProcessor.action">1</intProp>
+                <intProp name="ActionProcessor.target">0</intProp>
+                <stringProp name="ActionProcessor.duration">0</stringProp>
+              </TestAction>
+              <hashTree>
+                <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+                  <stringProp name="ConstantTimer.delay">5000</stringProp>
+                  <stringProp name="RandomTimer.range">4000</stringProp>
+                </GaussianRandomTimer>
+                <hashTree/>
+              </hashTree>
               <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get contact" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
@@ -826,18 +874,6 @@
                   <boolProp name="Assertion.assume_success">false</boolProp>
                   <intProp name="Assertion.test_type">2</intProp>
                 </ResponseAssertion>
-                <hashTree/>
-              </hashTree>
-              <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Time for thinking" enabled="true">
-                <intProp name="ActionProcessor.action">1</intProp>
-                <intProp name="ActionProcessor.target">0</intProp>
-                <stringProp name="ActionProcessor.duration">0</stringProp>
-              </TestAction>
-              <hashTree>
-                <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
-                  <stringProp name="ConstantTimer.delay">5000</stringProp>
-                  <stringProp name="RandomTimer.range">4000</stringProp>
-                </GaussianRandomTimer>
                 <hashTree/>
               </hashTree>
             </hashTree>
