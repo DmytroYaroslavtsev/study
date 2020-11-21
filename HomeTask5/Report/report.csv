@@ -1,0 +1,99 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1605995320027,76,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",add Editor 1-1,,true,,46818,2829,1,1,null,0,50,9
+1605995320072,16,Get Login.aspx,200,OK,add Editor 1-1,text,true,,4662,441,1,1,http://192.168.2.4/blog/Account/login.aspx,16,0,9
+1605995320092,60,Post Login.aspx,200,OK,add Editor 1-1,text,true,,42156,2388,1,1,http://192.168.2.4/blog/,17,0,0
+1605995320154,9,Add new user,500,"Number of samples in transaction : 2, number of failing samples : 1",add Editor 1-1,,false,,883,2772,1,1,null,0,573,0
+1605995320154,4,Get API user roles,200,OK,add Editor 1-1,text,true,,479,1263,1,1,http://192.168.2.4/blog/api/roles/getuserroles/fakeusername,4,0,0
+1605995320729,5,Post new user,500,Internal Server Error,add Editor 1-1,text,false,,404,1509,1,1,http://192.168.2.4/blog/api/users,5,0,0
+1605995320766,34,Get Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31048,429,2,2,null,0,5182,1
+1605995320767,34,Get HomePage,200,OK,Thread Group 1-1,text,true,,31048,429,1,1,http://192.168.2.4/blog,34,0,1
+1605995325982,69,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,40636,2825,2,2,null,0,5968,0
+1605995325983,5,Get Login.aspx,200,OK,Thread Group 1-1,text,true,,4662,441,2,2,http://192.168.2.4/blog/Account/login.aspx,5,0,0
+1605995331954,64,Post Login.aspx,200,OK,Thread Group 1-1,text,true,,35974,2384,2,2,http://192.168.2.4/blog/,14,0,0
+1605995325767,54,Get Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31048,429,2,2,null,0,6844,3
+1605995325771,54,Get HomePage,200,OK,Thread Group 1-2,text,true,,31048,429,2,2,http://192.168.2.4/blog,54,0,3
+1605995332666,41,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,40636,2831,2,2,null,0,6563,0
+1605995332666,4,Get Login.aspx,200,OK,Thread Group 1-2,text,true,,4662,441,2,2,http://192.168.2.4/blog/Account/login.aspx,4,0,0
+1605995339233,37,Post Login.aspx,200,OK,Thread Group 1-2,text,true,,35974,2390,2,2,http://192.168.2.4/blog/,6,0,0
+1605995332021,33,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31599,1214,2,2,null,0,8042,0
+1605995340062,33,Get posts using dates from CSV,200,OK,Thread Group 1-1,text,true,,31599,1214,2,2,http://192.168.2.4/blog/2020/10/07/default,32,0,0
+1605995342463,22,Get Random Number from Current Page,200,OK,Thread Group 1-1,text,true,,34349,1229,2,2,http://192.168.2.4/blog/2020/10/07/default?page=2,22,0,0
+1605995339271,26,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31283,1214,2,2,null,0,3419,0
+1605995342689,26,Get posts using dates from CSV,200,OK,Thread Group 1-2,text,true,,31283,1214,2,2,http://192.168.2.4/blog/2020/10/06/default,26,0,0
+1605995342504,49,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,55810,1227,2,2,null,0,5255,0
+1605995347735,49,Open post,200,OK,Thread Group 1-1,text,true,,55810,1227,2,2,http://192.168.2.4/blog/post/bkyhzch,46,0,0
+1605995350867,20,Get Random Number from Current Page,200,OK,Thread Group 1-2,text,true,,35670,1229,2,2,http://192.168.2.4/blog/2020/10/06/default?page=2,20,0,0
+1605995350896,43,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,58699,1227,2,2,null,0,8273,0
+1605995359156,43,Open post,200,OK,Thread Group 1-2,text,true,,58699,1227,2,2,http://192.168.2.4/blog/post/njcarul,41,0,0
+1605995347808,667,Edit Random Post,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,74549,7222,2,2,null,0,61442,2
+1605995353473,21,Get EDIT Page,200,OK,Thread Group 1-1,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=6e011504-7204-493c-9928-510a0a3c2857,20,0,0
+1605995353495,6,Get POST content XML,200,OK,Thread Group 1-1,text,true,,1500,1340,2,2,http://192.168.2.4/blog/api/posts/6e011504-7204-493c-9928-510a0a3c2857,6,0,0
+1605995395790,338,Edit POST,200,OK,Thread Group 1-1,,true,,301,1980,2,2,http://192.168.2.4/blog/api/posts/update/foo,338,0,2
+1605995396129,3,Refresh post after Saveing,200,OK,Thread Group 1-1,text,true,,962,1340,2,2,http://192.168.2.4/blog/api/posts/6e011504-7204-493c-9928-510a0a3c2857,3,0,0
+1605995409617,299,Get POST,200,OK,Thread Group 1-1,text,true,,51677,1281,2,2,http://192.168.2.4/blog/post/bkyhzch,298,0,0
+1605995409917,27,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32024,1214,2,2,null,0,5582,0
+1605995415497,27,Get posts using dates from CSV,200,OK,Thread Group 1-1,text,true,,32024,1214,2,2,http://192.168.2.4/blog/2020/10/05/default,27,0,0
+1605995422314,22,Get Random Number from Current Page,200,OK,Thread Group 1-1,text,true,,35056,1229,2,2,http://192.168.2.4/blog/2020/10/05/default?page=2,22,0,0
+1605995422342,202,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,58897,1227,2,2,null,0,10102,0
+1605995432433,202,Open post,200,OK,Thread Group 1-1,text,true,,58897,1227,2,2,http://192.168.2.4/blog/post/wawpkoc,201,0,0
+1605995359213,273,Edit Random Post,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,77368,7188,2,2,null,0,77588,1
+1605995363587,12,Get EDIT Page,200,OK,Thread Group 1-2,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=e1abbb4e-0c48-45ab-afb7-8f5ccf52a209,11,0,0
+1605995363600,7,Get POST content XML,200,OK,Thread Group 1-2,text,true,,1577,1340,2,2,http://192.168.2.4/blog/api/posts/e1abbb4e-0c48-45ab-afb7-8f5ccf52a209,7,0,0
+1605995432160,224,Edit POST,200,OK,Thread Group 1-2,,true,,301,1946,2,2,http://192.168.2.4/blog/api/posts/update/foo,224,0,1
+1605995432384,4,Refresh post after Saveing,200,OK,Thread Group 1-2,text,true,,928,1340,2,2,http://192.168.2.4/blog/api/posts/e1abbb4e-0c48-45ab-afb7-8f5ccf52a209,4,0,0
+1605995437047,26,Get POST,200,OK,Thread Group 1-2,text,true,,54453,1281,2,2,http://192.168.2.4/blog/post/njcarul,26,0,0
+1605995437074,32,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32507,1214,2,2,null,0,1916,0
+1605995438990,32,Get posts using dates from CSV,200,OK,Thread Group 1-2,text,true,,32507,1214,2,2,http://192.168.2.4/blog/2020/10/04/default,31,0,0
+1605995440108,43,Get Random Number from Current Page,200,OK,Thread Group 1-2,text,true,,34486,1229,2,2,http://192.168.2.4/blog/2020/10/04/default?page=2,43,0,0
+1605995440156,47,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,45540,1227,2,2,null,0,8768,0
+1605995448917,47,Open post,200,OK,Thread Group 1-2,text,true,,45540,1227,2,2,http://192.168.2.4/blog/post/vkggwzc,46,0,0
+1605995448972,505,Edit Random Post,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,63977,7259,2,2,null,0,51938,1
+1605995459855,6,Get EDIT Page,200,OK,Thread Group 1-2,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=0a587f9a-19ae-4e09-a09a-bdc51dbfc029,6,0,0
+1605995459861,4,Get POST content XML,200,OK,Thread Group 1-2,text,true,,946,1340,2,2,http://192.168.2.4/blog/api/posts/0a587f9a-19ae-4e09-a09a-bdc51dbfc029,4,0,0
+1605995500287,237,Edit POST,200,OK,Thread Group 1-2,,true,,301,2017,2,2,http://192.168.2.4/blog/api/posts/update/foo,237,0,1
+1605995500525,3,Refresh post after Saveing,200,OK,Thread Group 1-2,text,true,,999,1340,2,2,http://192.168.2.4/blog/api/posts/0a587f9a-19ae-4e09-a09a-bdc51dbfc029,3,0,0
+1605995501159,255,Get POST,200,OK,Thread Group 1-2,text,true,,41622,1281,2,2,http://192.168.2.4/blog/post/vkggwzc,255,0,0
+1605995432647,309,Edit Random Post,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,77169,7193,2,2,null,0,74358,1
+1605995432702,18,Get EDIT Page,200,OK,Thread Group 1-1,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=a52038d5-65f2-4f2e-81b1-124a5239ecec,18,0,0
+1605995432721,8,Get POST content XML,200,OK,Thread Group 1-1,text,true,,1384,1340,2,2,http://192.168.2.4/blog/api/posts/a52038d5-65f2-4f2e-81b1-124a5239ecec,8,0,0
+1605995496883,251,Edit POST,200,OK,Thread Group 1-1,,true,,301,1951,2,2,http://192.168.2.4/blog/api/posts/update/foo,251,0,1
+1605995497134,4,Refresh post after Saveing,200,OK,Thread Group 1-1,text,true,,933,1340,2,2,http://192.168.2.4/blog/api/posts/a52038d5-65f2-4f2e-81b1-124a5239ecec,4,0,0
+1605995507286,28,Get POST,200,OK,Thread Group 1-1,text,true,,54442,1281,2,2,http://192.168.2.4/blog/post/wawpkoc,27,0,0
+1605995501415,36,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31538,1214,2,2,null,0,8852,0
+1605995510265,36,Get posts using dates from CSV,200,OK,Thread Group 1-2,text,true,,31538,1214,2,2,http://192.168.2.4/blog/2020/10/07/default,36,0,0
+1605995507314,20,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31326,1214,2,2,null,0,4067,0
+1605995511379,20,Get posts using dates from CSV,200,OK,Thread Group 1-1,text,true,,31326,1214,2,2,http://192.168.2.4/blog/2020/10/06/default,20,0,0
+1605995516481,35,Get Random Number from Current Page,200,OK,Thread Group 1-1,text,true,,35419,1229,2,2,http://192.168.2.4/blog/2020/10/06/default?page=3,35,0,0
+1605995517848,22,Get Random Number from Current Page,200,OK,Thread Group 1-2,text,true,,33872,1229,2,2,http://192.168.2.4/blog/2020/10/07/default?page=2,22,0,0
+1605995517876,56,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,54420,1227,2,2,null,0,6127,0
+1605995523993,56,Open post,200,OK,Thread Group 1-2,text,true,,54420,1227,2,2,http://192.168.2.4/blog/post/virlorg,55,0,0
+1605995516526,52,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,60371,1227,2,2,null,0,8217,0
+1605995524730,52,Open post,200,OK,Thread Group 1-1,text,true,,60371,1227,2,2,http://192.168.2.4/blog/post/zrfcnzb,51,0,0
+1605995524794,472,Edit Random Post,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,78581,7147,2,2,null,0,66647,1
+1605995527812,3,Get EDIT Page,200,OK,Thread Group 1-1,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=3e8f31ec-480c-4be0-83fb-d16468e8d6ea,3,0,0
+1605995527816,3,Get POST content XML,200,OK,Thread Group 1-1,text,true,,1445,1340,2,2,http://192.168.2.4/blog/api/posts/3e8f31ec-480c-4be0-83fb-d16468e8d6ea,3,0,0
+1605995587072,241,Edit POST,200,OK,Thread Group 1-1,,true,,301,1905,2,2,http://192.168.2.4/blog/api/posts/update/foo,241,0,1
+1605995587313,3,Refresh post after Saveing,200,OK,Thread Group 1-1,text,true,,887,1340,2,2,http://192.168.2.4/blog/api/posts/3e8f31ec-480c-4be0-83fb-d16468e8d6ea,3,0,0
+1605995591689,222,Get POST,200,OK,Thread Group 1-1,text,true,,55839,1281,2,2,http://192.168.2.4/blog/post/zrfcnzb,221,0,0
+1605995524059,270,Edit Random Post,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,72590,7161,2,2,null,0,67669,1
+1605995524956,12,Get EDIT Page,200,OK,Thread Group 1-2,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=c11aaf60-ad26-4971-a7cf-7ec535d148a1,12,0,0
+1605995524969,3,Get POST content XML,200,OK,Thread Group 1-2,text,true,,1049,1340,2,2,http://192.168.2.4/blog/api/posts/c11aaf60-ad26-4971-a7cf-7ec535d148a1,3,0,0
+1605995587885,219,Edit POST,200,OK,Thread Group 1-2,,true,,301,1919,2,2,http://192.168.2.4/blog/api/posts/update/foo,219,0,1
+1605995588104,7,Refresh post after Saveing,200,OK,Thread Group 1-2,text,true,,901,1340,2,2,http://192.168.2.4/blog/api/posts/c11aaf60-ad26-4971-a7cf-7ec535d148a1,7,0,0
+1605995591969,29,Get POST,200,OK,Thread Group 1-2,text,true,,50230,1281,2,2,http://192.168.2.4/blog/post/virlorg,28,0,0
+1605995591914,37,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31260,1214,2,2,null,0,3165,0
+1605995595079,37,Get posts using dates from CSV,200,OK,Thread Group 1-1,text,true,,31260,1214,2,2,http://192.168.2.4/blog/2020/10/05/default,37,0,0
+1605995591998,37,Choose Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32111,1214,2,2,null,0,6038,0
+1605995598036,37,Get posts using dates from CSV,200,OK,Thread Group 1-2,text,true,,32111,1214,2,2,http://192.168.2.4/blog/2020/10/04/default,35,0,0
+1605995599326,20,Get Random Number from Current Page,200,OK,Thread Group 1-1,text,true,,25693,1229,2,2,http://192.168.2.4/blog/2020/10/05/default?page=4,20,0,0
+1605995604377,21,Get Random Number from Current Page,200,OK,Thread Group 1-2,text,true,,34372,1229,2,2,http://192.168.2.4/blog/2020/10/04/default?page=2,21,0,0
+1605995599349,60,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,54568,1227,2,2,null,0,6822,0
+1605995606161,60,Open post,200,OK,Thread Group 1-1,text,true,,54568,1227,2,2,http://192.168.2.4/blog/post/ikkddmf,59,0,0
+1605995606231,3168,Edit Random Post,200,,Thread Group 1-1,,true,,21548,2621,2,2,null,0,0,0
+1605995609389,6,Get EDIT Page,200,OK,Thread Group 1-1,text,true,,20109,1281,2,2,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=8667c335-9e16-4ed5-adfd-bcc0b726ef0f,6,0,0
+1605995609396,3,Get POST content XML,200,OK,Thread Group 1-1,text,true,,1439,1340,2,2,http://192.168.2.4/blog/api/posts/8667c335-9e16-4ed5-adfd-bcc0b726ef0f,3,0,0
+1605995604404,38,Open Random Post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,84269,1227,1,1,null,0,6944,0
+1605995611332,38,Open post,200,OK,Thread Group 1-2,text,true,,84269,1227,1,1,http://192.168.2.4/blog/post/prdifeo,37,0,0
+1605995611387,1932,Edit Random Post,200,,Thread Group 1-2,,true,,21108,2621,1,1,null,0,0,0
+1605995613296,19,Get EDIT Page,200,OK,Thread Group 1-2,text,true,,20109,1281,1,1,http://192.168.2.4/blog/admin/app/editor/editpost.cshtml?id=aabba2fa-8c21-42b4-8a97-4fd71094daf5,4,0,0
+1605995613316,3,Get POST content XML,200,OK,Thread Group 1-2,text,true,,999,1340,1,1,http://192.168.2.4/blog/api/posts/aabba2fa-8c21-42b4-8a97-4fd71094daf5,3,0,0
