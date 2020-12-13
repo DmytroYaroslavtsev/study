@@ -1,0 +1,2 @@
+https://epam-my.sharepoint.com/:w:/p/dmytro_yaroslavtsev/ESuKCoixLUBIgoFe3TRg624BunbYrN27kvPtl9R6kXkmBQ?email=Yaroslav_Maslych%40epam.com&e=nhva0g
+https://epam-my.sharepoint.com/:w:/p/dmytro_yaroslavtsev/ES3h8ij1QQZHmEqPyuCxWbQB1qasOH6Nfr9pOksyrx6PSA?email=Yaroslav_Maslych%40epam.com&e=hsaSXf

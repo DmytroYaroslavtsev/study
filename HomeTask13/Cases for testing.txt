@@ -1,0 +1,8 @@
+1. Start of application (Splash/Ready to go)
+2. Smoke testing
+3. E2E tests
+4. Navigation between different screens
+5. Starting of long form video (DRM streams)
+6. Starting of short form video (DRM streams)
+7. Start long form video (DRM streams) after FF/Rewind
+8. Start short form video (DRM streams) after FF/Rewind
