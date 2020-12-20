@@ -10,5 +10,5 @@ HomeTask 8 - done
 HomeTask 9 - done
 HomeTask 10 - done
 HomeTask 11 - done
-HomeTask 12 - NOT done
+HomeTask 12 - done
 HomeTask 13 - done
